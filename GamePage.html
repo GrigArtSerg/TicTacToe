@@ -1,0 +1,48 @@
+<html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="GameStyle.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+<h1>Крестики-нолики</h1>
+
+<div class="logarea-wrapper">
+    <label for='login'>Логин:</label>
+    <input id='login' name='login' type="text" placeholder="Логин"/>
+    <br>  <br>
+    <label for='password'>Пароль:</label>
+    <input id='password' name='password' type="password" placeholder="Пароль" />
+
+    <br>  <br>
+
+    <div id = "account">
+        <button id='reg_btn'>Регистрация</button>
+        <button id='log_btn'>Вход</button>
+        <button id="restart_btn">Начать заново</button>
+    </div>
+    <br>
+    <div id = 'RegLogAnswer'>Ответ:</div>
+
+</div>
+
+
+<div class="area-wrapper">
+    <div id="area">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</div>
+
+<script src="GameScript.js"></script>
+</body>
+</html>
